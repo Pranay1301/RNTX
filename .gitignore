@@ -1,0 +1,34 @@
+.DS_Store
+
+# Dependencies
+node_modules/
+site/node_modules/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Build and hosting output
+.next/
+dist/
+out/
+.vinext/
+.wrangler/
+site/.next/
+site/dist/
+site/out/
+site/.vinext/
+site/.wrangler/
+
+# Local deploy archives and generated internals
+*.tar.gz
+.site-git-backup/
+tmp/
+output/**/work/
+output/**/captures/
+output/reference-reels/
+
+# Python/runtime caches
+__pycache__/
+*.pyc
